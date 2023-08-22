@@ -1,5 +1,5 @@
 import React from 'react'
-import {HStack,Avatar,Text } from "@chakra-ui/react";
+import {HStack,Avatar,Text, VStack } from "@chakra-ui/react";
 
 const Message = ({text,uri,user="other"}) => {
   return (
